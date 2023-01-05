@@ -202,8 +202,8 @@ function animation() {
 
   handleBul();
   
-  handleDangerousCat();
   if (score >= 15) { 
+    handleDangerousCat();
   }
 
   player.update();
