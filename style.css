@@ -52,6 +52,7 @@ body {
   text-align: center;
   cursor: pointer;
   border-radius: 10px;
+  visibility: hidden;
   /* vertical-align: middle; */
 }
 

@@ -198,7 +198,6 @@ function gameOver() {
 // animation
 function animation() {
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  repeat.style.visibility = 'hidden';
 
   handleBul();
   
