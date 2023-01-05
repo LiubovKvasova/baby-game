@@ -12,6 +12,11 @@ let gameFrame = 0;
 let lives = 5;
 let allTotal = localStorage.getItem('allTotal');
 allTotal = parseInt(allTotal);
+
+if (isNaN(allTotal)) {
+  allTotal = 0;
+}
+
 const allTotalEl = document.getElementById('allTotal');
 allTotalEl.value = allTotal;
 
