@@ -13,7 +13,7 @@ let lives = 5;
 let allTotal = localStorage.getItem('allTotal');
 allTotal = parseInt(allTotal);
 
-if (isNaN(allTotal)) {
+if (isNaN(allTotal) || !allTotal) {
   allTotal = 0;
 }
 
